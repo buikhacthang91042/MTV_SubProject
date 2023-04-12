@@ -1,0 +1,483 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-left: 0px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#Header{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+#North_Left{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+#North_Center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin-left: 400px;
+    font-weight: bolder;
+}
+#input1{
+    width: 200px;
+    height: 30px;
+}
+#North_Right{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    align-items: center;
+    margin-left: 200px;
+    justify-content: space-around;
+}
+#Banner{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+     width: 1519px;
+ }
+ #picBanner{
+    display: flex;
+    flex-direction: row;
+    width: 1519px;
+ }
+ #chu1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color:black;
+    margin-left: 150px;
+    margin-top: 350px;
+}
+#SHOP{
+    background-color: black;
+    color: aliceblue;
+}
+#Center{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+#Center1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    }
+.p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 32px;
+    width: 25%;
+}
+.hinh{
+    display: flex;
+    flex-direction: column;
+    width: 245px;
+}
+.price{
+    color: red;
+    font-weight: bolder;
+}
+.type{
+    opacity: 0.4;
+}
+#Center2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    border: 1px solid gray;
+    justify-content: space-around;
+    height: 187px;
+    width: 1170px;
+    margin-left:60px ;
+    box-shadow:  inset 0 0 8px gray;
+}
+#Adiclub{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    margin-left: 80px;
+    
+    justify-content: center;
+}
+#to{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#email{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+   margin-top: 70px;
+  
+}
+#Center3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+ 
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 30%;
+    width: 600px;
+    margin-top: 20px;
+    height: 54px;
+}
+.type1{
+   
+    margin-top: 26px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+#Center4{
+    display: flex;
+    flex-direction: row;
+    margin-left: 28px;
+    margin-top: 70px;
+    width: 1480px;
+}
+#gr1{
+    display: flex;
+    flex-direction: column;
+}
+#gr2{
+    display: flex;
+    flex-direction: column;
+    margin-left:  20px ;
+}
+.chu2{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.chu3{
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.chu5{
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#Center5{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.tieude{
+    font-weight: bolder;
+}
+.HinhCenter4{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}#Center6{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 300px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.hi{
+    height: 385px;
+    width: 300px;
+}
+#Banner2{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    margin-top: 700px;
+    height: 150px;
+}
+#join{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+   margin-top: 40px;
+    margin-left: 250px;
+    
+}
+#sign{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 290px;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 100px;
+    margin-top: 30px;
+   font-size: 20px;
+   justify-content: center;
+    
+}
+#Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.cot_South{
+    display: flex;
+    flex-direction: column;
+}
+#cot6{
+    display: flex;
+    flex-direction: column;
+    height: 2px;
+    width: 25px;
+    margin-right: 70px;
+    
+    
+}
+.cot_follow{
+    position: relative;
+    top:3px;
+}
+.tieuDe_South{
+    font-weight:bolder;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+@media only screen and (max-width: 415px) {
+    body{
+        width: 414px;
+    }
+    #North_Center{
+        display: none;
+    }
+    #input1{
+        display: none;
+    }
+    #North_Left{
+        margin-left: 90px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    #North_Right{
+        width: 100px;
+        margin-left: 10px;
+    }
+    #picBanner{
+        width: 414px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        
+  }
+  #Banner{
+    display: flex;
+    position: none;
+    flex-direction: column;
+     width:414px;
+     
+}
+#picBanner{
+    width: 414px;
+}
+#chu1{
+    display: flex;
+    flex-direction: column;
+    position: none;
+    color:black;
+    text-size-adjust: ;
+    margin-left:5px;
+    margin-top: 250px;
+    width: 414px;
+
+}
+#Center{
+    margin-top: 120px;
+    width: 414px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+   }
+#Center1{
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+   margin-left: 6%;
+}
+.p{
+    width: 40%;
+    margin-left: px;
+   
+}
+#p3{
+    margin-left: 4px;
+}
+#p4{
+    margin-left: 8%;
+}
+#p5{
+    margin-left: 4px ;
+}
+#p1{
+    width: 170px;
+}
+.hinh{
+    width:160px ;
+}
+.chu{
+    width: 200px;
+}
+#Center2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+    
+}
+#Adiclub{
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+#to{
+    margin-left: 0px;
+}
+#Email{
+    margin-top: 5px;
+    margin-left: 5px ;
+}
+#Center3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+
+}
+#center3_1{
+    width: 10%;
+    margin-left: 4%;
+}
+#center3_2{
+    width: 100%;
+    
+    margin-left: 2px;
+}
+#center3_3{
+    width: 80%;
+    margin-left:10px;
+}
+#center3_4{
+    width: 100%;
+    margin-left: 10px;
+}
+#Center4{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+#gr1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 414px;
+    left: 0px;
+}
+.hinhSt{
+    max-width: 400px;
+    
+}
+#gr2{
+=    width: 100%;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+#hinhMake{
+    max-width: 400px;
+    
+}
+#Center5{
+    display: flex;
+        flex-wrap: wrap;
+    width: 100%;
+    margin-left: 10px;
+    justify-content: flex-start;
+    
+}
+.HinhCenter4{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 0%;
+
+}
+.hi{
+    width: 50%;
+    
+}
+#born{
+    margin-top:200px;
+}
+#mu{
+    margin-top:200px;
+}
+#Center6{
+    display: none;
+}
+#Banner2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 350px;
+}
+#join{
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 5px;
+}
+#sign{
+    margin-top: 5px;
+    width: 100%;
+    margin-left: 0%;
+}
+#Footer{
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+#cot1{
+    display: none;
+}
+#cot2{
+    display: none;
+}
+#cot3{
+    display: none;
+}
+
+#cot5{
+    margin-left: 20px;
+}
+#cot6{
+    display: none;
+}
+}
